@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens Flexiveis</title>
+</head>
+<body>
+    <center>
+        <H1>Imagens flexiveis pt.1<H1>
+    </center>
+    <P>Esse é um exemplo de imagem flexivel, isto significa que se você alterar as telas de visualização, a imagem vai mudar.</P>
+    <center>
+        <picture>
+            <source media="(max-width:750px )" srcset="Paisagens/floresta-p.png" type="image/png">
+            <source media="(max-width:1050px)" srcset="Paisagens/floresta-m.png" type="image/png">
+            <img src="Paisagens/floresta-g.png" alt="Paisagem Flexivel">
+        </picture>
+    </center>
+</body>
+</html>

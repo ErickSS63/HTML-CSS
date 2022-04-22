@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif
+}
+h1#erick{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.sousa{
+    background-color: brown;
+    text-align: right;
+    border-radius: 10px;
+}
+.santos{
+    text-align: center;
+    color: blue;
+}
