@@ -1,0 +1,33 @@
+body{
+    background-image: url(imagens/pattern004.png);
+
+}
+.gradient{
+    background-image: linear-gradient(to right,yellow,red);
+}
+.quadrado{
+    border: 5px solid black;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+.retângulo{
+    height: 250px;
+    width: 775px;
+    border: 5px solid green;
+    border-radius: 5px;
+}
+
+#q1{
+    background-color: blue;
+}
+#q2{
+    background-image: linear-gradient(to bottom,red,yellow);
+}
+#q3{
+    background-image: url(imagens/wallpaper001.jpg);
+}
+
+#r1{
+    background-image: url(imagens/wallpaper002.jpg);
+}
