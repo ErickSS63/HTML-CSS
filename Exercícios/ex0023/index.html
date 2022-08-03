@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            background-color: darkgray;
+        }
+        table{
+            background-image: url(pattern004.png);
+            width: 100vh;
+            height: 100vh;
+            border: 1px solid black;
+            border-radius: 4px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 3px;
+        }
+        .a2{
+            background-image: url(wallpaper002.jpg);
+            background-position: left top;
+            background-attachment: fixed;
+        }
+        .c3{
+            background-image: linear-gradient(to bottom, red, yellow);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Essa é minha primeira tabela em HTML5.
+    </h1>
+
+    <table>
+        <tr>
+            <th>Título da tabela</th>
+            <td>a1</td>
+            <td>b1</td>
+            <td>c1</td>
+        </tr>
+        <tr>
+            <td class="a2">a2</td>
+            <td>b2</td>
+            <td>c2</td>
+        </tr>
+        <tr>
+            <td>a3</td>
+            <td>b3</td>
+            <td class="c3">c3</td>
+        </tr>
+        <tr>
+            <td>a4</td>
+            <td>b4</td>
+            <td>c4</td>
+        </tr>
+    </table>
+</body>
+</html>
