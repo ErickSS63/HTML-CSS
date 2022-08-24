@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo dos Inputs</title>
+</head>
+<body>
+    <h1>
+        Tipos de Input's em HTML5
+    </h1>
+    
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Resumo dos Input's</legend>
+            <p>
+                <label for="texto">
+                    Input do tipo texto:
+                </label>
+                <input type=" text" name="texto" id="texto">
+            </p>
+        
+            <p>
+                <label for="password">Senha:</label>
+                <input type="password" name="senha" id="senha">
+            </p>
+            <p>
+                <label for="radio">Radio:</label>
+                Yes<input type="radio" name="radio" id="radio">
+                No<input type="radio" name="radio" id="radio">
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Checkbox</legend>
+                    <label for="Basquete">Basquete</label>
+                    <input type="checkbox" name="checkbox" id="Basquete"> <br>
+                    <label for="Vôlei">Vôlei</label>
+                    <input type="checkbox" name="checkbox" id="Vôlei"> <br>
+                    <label for="Futebol">Futebol</label>
+                    <input type="checkbox" name="checkbox" id="Futebol">
+                </fieldset>
+                <p>
+                    <legend>O input enviar1 (button) é apenas um botão e o input enviar2(Submit)ele envia para o php </legend>
+                    <input type="button" value="Enviar1">
+                    <input type="submit" value="Enviar2">
+                </p>
+            </p>
+            <p>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="e-mail" id="e-mail">
+            </p>
+            <p>
+                <label for="Imagem">Imagem:</label>
+                <input type="image" src="" alt="">
+            </p>
+            <p>
+                <label for="Número">Número:</label>
+                <input type="number" name="Número" id="Número">
+            </p>
+            <p>
+                <label for="Range">range:</label>
+                <input type="range" name="Range" id="Range">
+            </p>
+            <p>
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" name="tel" id="Telefone">
+            </p>
+            <p>
+                <label for="Horário">Horário:</label>
+                <input type="time" name="Horário" id="Horário">
+            </p>
+            <p>
+                <label for="Mês">Mês:</label>
+                <input type="month" name="Mês" id="Mês">
+            </p>
+            <p>
+                <label for="Data">Data</label>
+                <input type="date" name="data" id="Data">
+            </p>
+            <p>
+                <label for="Limpar">Limpar</label>
+                <input type="reset" value="Limpar">
+            </p>
+            <p>
+                <label for="URL">Link</label>
+                <input type="url" name="link" id="URL">
+            </p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
