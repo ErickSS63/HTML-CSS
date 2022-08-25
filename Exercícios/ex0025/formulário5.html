@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Exemplo de formulário e programação
+    </h1>
+    <p>
+        <label for="N1">Primeiro Número:</label>
+        <input type="number" name="número1" id="N1" required oninput="Soma.innerHTML=Number(N1.value)+Number(N2.value)">
+    </p>
+    <p>
+        <label for="N2">Segundo Número:</label>
+        <input type="number" name="número2" id="N2" required oninput="Soma.innerHTML=Number(N1.value)+Number(N2.value)">
+    </p>
+
+    <p>
+        <label for="Soma">Soma:</label>
+        <output name="soma" id="Soma">0
+        </output>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</body>
+</html>

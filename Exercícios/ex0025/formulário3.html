@@ -18,7 +18,7 @@
                 <label for="texto">
                     Input do tipo texto:
                 </label>
-                <input type=" text" name="texto" id="texto">
+                <input type=" text" name="texto" id="texto" placeholder="O placeholder fica dentro">
             </p>
         
             <p>
@@ -40,26 +40,43 @@
                     <label for="Futebol">Futebol</label>
                     <input type="checkbox" name="checkbox" id="Futebol">
                 </fieldset>
-                <p>
-                    <legend>O input enviar1 (button) é apenas um botão e o input enviar2(Submit)ele envia para o php </legend>
-                    <input type="button" value="Enviar1">
-                    <input type="submit" value="Enviar2">
-                </p>
+                <fieldset>
+                    <legend>
+                        Button X Submit
+                    </legend>
+                        <p>
+                            <p>O input enviar1 (button) é apenas um botão e o input enviar2(Submit)ele envia para o php, ou seja, possuem valores semânticos diferentes.</p>
+                            <input type="button" value="Enviar1">
+                            <input type="submit" value="Enviar2">
+                        </p>
+                    
+                </fieldset>
             </p>
             <p>
                 <label for="e-mail">E-mail:</label>
                 <input type="email" name="e-mail" id="e-mail">
             </p>
-            <p>
-                <label for="Imagem">Imagem:</label>
-                <input type="image" src="" alt="">
-            </p>
+            <fieldset>
+                <legend>Image X file</legend>
+                <p>O input image, apenas o desenvolvedor consegue adicionar uma imagem.</p>
+                <p>
+                    <label for="Imagem">Imagem:</label>
+                    <input type="image" src="" alt="">
+                </p>
+                <p>
+                    Já o input file ele possibilita ao usuário adicionar uma foto.
+                </p>
+                <p>
+                    <label for="foto">Foto:</label>
+                    <input type="file" name="foto" id="foto">
+                </p>
+            </fieldset>
             <p>
                 <label for="Número">Número:</label>
                 <input type="number" name="Número" id="Número">
             </p>
             <p>
-                <label for="Range">range:</label>
+                <label for="Range">Range:</label>
                 <input type="range" name="Range" id="Range">
             </p>
             <p>
@@ -85,6 +102,11 @@
             <p>
                 <label for="URL">Link</label>
                 <input type="url" name="link" id="URL">
+            </p>
+
+            <p>
+                <label for="cor">Color</label>
+                <input type="color" name="Cor" id="cor">
             </p>
         </fieldset>
     </form>

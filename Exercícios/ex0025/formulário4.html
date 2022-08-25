@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+    <h1>
+        Elementos fora da tag input.
+    </h1>
+
+    <p>
+        Quero selecionar um estado brasileiro para informar onde eu nasci.
+    </p>
+    <form action="cadastro.php">
+        <p>
+            <label for="Estados">Estados:</label>
+            <select name="Estados" id="Estados">
+                <option value="PA">Pará</option>
+                <option value="AM">Amazonas</option>
+                <option value="AC">Acre</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </p>
+        <p>
+            <label for="Profissões">Profissão</label>
+            <input type="text" name="p" id="Profissão" list="lista">
+            <datalist id="lista">
+                <option value="ADM">Adiministrador</option>
+            </datalist>
+        </p>
+        <p>
+            A diferença entre datalist e select é que o primeiro possibilita a escrita enqunto a outra deixa respostas pré definidas.
+        </p>
+        <p>
+            <label for="Mensagem">Mensagem</label> <br>
+            <textarea name="mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+        </p>
+</form>
+</body>
+</html>
