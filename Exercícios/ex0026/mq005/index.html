@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Testes com Media Queries</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Meu site
+        </h1>
+
+        <span  id="burguer"class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção1</a></li>
+                <li><a href="#">Opção2</a></li>
+                <li><a href="#">Opção3</a></li>
+                <li><a href="#">Opção4</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>
+                Testando Media Queries
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sit facere saepe nobis consectetur molestias natus voluptatum, cum autem, sed aliquam! Optio molestiae officiis tenetur at vel excepturi repellendus maiores?</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae totam suscipit praesentium sapiente tenetur, reprehenderit ad dolores architecto accusamus ipsa illum reiciendis ea corrupti eum enim quam temporibus, amet dolorum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore laudantium deleniti? Autem nam doloribus dolorum laborum nihil distinctio quae explicabo non consequatur suscipit, ea repudiandae, ipsum adipisci obcaecati excepturi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nesciunt ipsa earum, aliquam minus aperiam necessitatibus cum asperiores similique nulla quisquam atque, voluptates laudantium nam consectetur. Ipsum perspiciatis sapiente ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse excepturi culpa earum nam atque. Quasi, pariatur, beatae veritatis facilis et necessitatibus perferendis odit cum minus reiciendis iusto. Deleniti, harum?
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam cumque nobis reiciendis voluptatem porro labore possimus rem. Labore facilis aut, unde corrupti iure a architecto distinctio officiis consequatur expedita corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi placeat eum doloribus aperiam tempore saepe ullam molestias nulla officia natus enim alias, adipisci reprehenderit cumque ex incidunt, sit libero commodi.</p>
+        </article>
+    </main>
+    <footer><p>Site Criado por Erick Sousa para o Curso em Vídeo</p></footer>
+
+    <script>
+        function clickMenu(){
+            if (itens.style.display=='block'){
+                itens.style.display='none'
+            } else {
+                itens.style.display='block'
+            }
+        }
+    </script>
+</body>
+</html>
