@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*Restante das Medias*/
+
+@media print {
+    p{
+        text-align: justify;
+        text-decoration: none;
+    }
+    main>p{
+        display: block;
+    }
+    .PC , .Print, .Tablet, .TV, .Mobile{
+        display: none;
+        }
+    .Print{
+        display: block;
+    }
+    main::after{
+        content: 'Site criado por Erick Sousa Santos para o CursoemVídeo';
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background: black url(../imagens/back-tablet.jpg) 
+    }
+
+    main {
+        width: 400px;
+    }
+    main> p{
+        display: none;
+    }
+
+    .PC , .Print, .Tablet, .TV, .Mobile{
+    display: none;
+    }
+
+    .Tablet{
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) and ( max-width:1200px){
+    body{
+        background: black url(../imagens/back-pc.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    main {
+        width: 300px;
+        height: 80px;
+    }
+    main> p{
+        display: none;
+    }
+
+    .PC , .Print, .Tablet, .TV, .Mobile{
+    display: none;
+    }
+   
+}
+
+@media screen and (min-width:1200px){
+    body{
+        background: black url(../imagens/back-tv.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    main {
+        width: 400px;
+    }
+    main> p{
+        display: none;
+    }
+
+    .PC , .Print, .Tablet, .TV, .Mobile{
+    display: none;
+    }
+
+    .TV{
+        display: none;
+    }
+}
