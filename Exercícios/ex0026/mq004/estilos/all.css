@@ -23,10 +23,13 @@ main{
     border-radius: 10px;
     padding: 10px;
 }
-h1,p{
+h1{
     text-align: center;
     color: rgb(0, 0, 0);
     text-shadow: 2px 1px 1px rgba(119, 23, 23, 0.411);
+}
+p{
+    display: none;
 }
 img{
     display: block;
