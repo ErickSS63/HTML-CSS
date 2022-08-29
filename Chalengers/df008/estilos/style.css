@@ -1,64 +1,57 @@
 @charset "UTF-8";
 
-/*Mobile_First*/
-
 *{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    background-color: lightgrey
-}
-
-main{
-    width: 300px;
-    height: 300px;
-    display: block;
-    margin:auto;
-    margin-top:150px;
-    background-color: darkgray;
-    border-radius: 10px;
-    box-shadow: -6px 5px 5px rgba(0, 0, 0, 0.432);
-}
-
-main>h2{
-    padding-top: 45px;
-    text-align: center;
-
-}
-.formulário{
-    margin: 50px;
-    margin-top: 25px;
     
 }
 
-#name{
-    margin: 5px;
-    padding: 5px;
-    border: none;
+body{
+    
+    background: black url(../imagens/backgroun3\ \(3\).jpg) no-repeat center center  ;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
-#password{
-    margin: 5px;
-    padding: 5px;
-    border: none;
-}
-
-#submit{
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px;
+img{
+    display: block;
     width: 100px;
-    transition: 0.5s;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    display: inline-block;
+    
 }
 
-#submit:hover{
-    background-color: rgba(119, 136, 153, 0.534);
+.formulario{
+    width: 450px;
+    background-color:rgba(128, 128, 128, 0.623);
+    margin: auto;
+    padding: 10px;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: -5px 4px 10px rgba(0, 0, 0, 0.404);
+    height: 300px;
 }
 
+.input-box{
+    width: 60%;
+    height: 30px;
+    padding: 3px;
+    margin-top: 10px;
+    border: none;
+}
 
-
-
-
+.btn-login{
+    display: block;
+    width: 50%;
+    margin-top: 20px;
+    
+}
