@@ -85,4 +85,5 @@ footer{
 footer:hover{
     background-color: #233eff;
     color: white;
+    transition: 0.5s;
 }
