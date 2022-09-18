@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgray;
+}
+
+.container{
+    height: 100vh;
+    display: flex ;
+    justify-content: center;
+    align-items:center;
+}
+.bloco-1,.bloco-2,.bloco-3{
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.bloco-1{
+    background-color: aquamarine;
+} 
+
+.bloco-2{
+    background-color: darkred;
+}
+
+.bloco-3{
+    background-color: darkgreen;
+}
