@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body{
+        background-color: darkgray;
+    }
+    .exemplo::before{
+       content: '(Conteúdo antes do parágrafo) ' ; 
+    }
+    .exemplo2::before{
+        content: 'E-mail: ';
+    }
+    .exemplo2::after{
+        content: '@gmail.com';
+    }
+
+    .elemento3::selection{
+        color: red;
+        background-color: black;
+    }
+    .exemplo4::first-letter{
+        content: 'Dr.';
+        font-size: 200%;
+        color:darkred;
+    }
+    p.exemplo5::first-line{
+        background-color: red;
+    }
+    </style>
+    <title>Pseudo-elements</title>
+</head>
+<body>
+    <h1>Aprendendo sobre pseudo-elements</h1>  
+    <p>
+        Pseudo-elemento é uma chave global adicionado a um seletor, isso permite colocar um estilo em uma part específica do elemento selecionado. <br>
+        Seletores Estudados{<br>
+            ::before <br>
+            ::after <br>
+            ::selection <br>
+            ::first-letter <br>
+            ::first-line <br>
+        }
+    </p>
+
+    <p class="exemplo">Olá, Mundo!</p>
+    
+    <p class="exemplo2">contatoericksantos63</p>
+
+    <p class="exemplo3">selecione uma palavra desta frase.</p>
+
+    <p class="exemplo4">Erick Sousa Santos.</p>
+
+    <p class="exemplo5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit aliquid vitae impedit natus quo quos temporibus, perspiciatis illo minus rem odio repellendus tempora obcaecati mollitia, doloremque ullam eum ratione ipsa!</p>
+
+</body>
+</html>
